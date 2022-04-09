@@ -30,11 +30,12 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
   - Ctrl + `
   - On the top menu panel, click **Terminal > New Terminal**
 
-4. Type in the command below and replace `zz` with the letters in your course-specific account (for clarification, it's "one(1), five(5), l")
+4. Type in the command below and replace `zz` with the letters in your course-specific account (for clarification, it's "one(1), five(5), l")<br>
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 5. If this is the first time you've connected to this server, a message like this may pop up.
 ```
+
 ssh cs15lsp22zz@ieng6.ucsd.edu
 
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't
@@ -44,10 +45,10 @@ RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
 ```
 
 6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. 
-
 ```
 
 ssh cs15lsp22aht@ieng6.ucsd.edu
