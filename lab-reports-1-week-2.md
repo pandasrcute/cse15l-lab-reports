@@ -4,7 +4,8 @@
 ---
 
 ## STEP 1 - Installing VS Code <br>
-The installation of VScode is fairly easy and simple. <br>
+The installation of VScode is fairly easy and simple. 
+
 1) Go to the Visual Studio Code website by clicking on this [link](https://code.visualstudio.com/) [Note: there are versions available for common operating systems such as Windows and macOS.] <br>
 
 2) After installing and accepting the agreement, you should be able to see a window like the following. [Note: you may have different colors depending on your system and settings]<br>
