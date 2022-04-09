@@ -36,6 +36,7 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
 
 5. If this is the first time you've connected to this server, a message like this may pop up.
 ```
+
 ssh cs15lsp22zz@ieng6.ucsd.edu
 
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't
