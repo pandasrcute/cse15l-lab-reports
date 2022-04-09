@@ -125,7 +125,9 @@ I'm sure you have noticed by now that every time we use the commands `ssh` or `s
 Using a program called `ssh-keygen`, it creates a pair of files called the public key and private key. The public key will be copies to a location on the server and the private key will be in a location on the client. Instead of using your password, the `ssh` command will use the pair of files.  
 
 1. On your computer, run the following commands (make sure to enter your username **instead of** `<user-name>`)
+
 ```
+
 $ ssh-keygen
 
 Generating public/private rsa key pair.
@@ -137,9 +139,9 @@ Enter passphrase (empty for no passphrase):
 ```
 
 **Note: Do not enter a paraphrase** <br>
-[**Insert Image**]
 
 ```
+
 Enter same passphrase again:
 
 Your identification has been saved in
@@ -163,6 +165,7 @@ The key's randomart image is:
 | +.+.o |
 | .. |
 +----[SHA256]-----
+
 ```
 ![image9](ssh-keygen.png)
 
@@ -171,6 +174,7 @@ The key's randomart image is:
 3. Let's copy the public key to the `.ssh` directory of your user account on the server.
 
 ```
+
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
 # now on server
