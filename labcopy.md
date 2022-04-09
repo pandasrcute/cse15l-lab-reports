@@ -48,7 +48,7 @@ SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
-6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. <br>
+6) Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. <br>
 ```
 ssh cs15lsp22aht@ieng6.ucsd.edu
 Password:
@@ -99,6 +99,7 @@ Let's try running some commands on both your computer and on the remote computer
 The command `scp` allows you to copy a file(s) from your computer to a remote computer. You will always run it from the client (your computer, not the remote computer). <br>
 1. Let's create a file on your computer and name it `LabReportPractice.java`. Then copy the following contents into it.
 ```
+
 class LabReportPractice {
    public static void main(String[] args) {
       System.out.println(System.getProperty("os.name"));
