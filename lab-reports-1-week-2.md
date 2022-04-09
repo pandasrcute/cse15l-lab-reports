@@ -1,4 +1,6 @@
 # Remote Access
+   ### Written by: Tracy Zhao
+   ### PID: A16764072
 
 ## STEP 1 Installing VS Code <br>
 The installation of VScode is fairly easy and simple.
