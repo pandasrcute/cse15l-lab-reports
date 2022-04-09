@@ -33,9 +33,8 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
 4. Type in the command below and replace `zz` with the letters in your course-specific account (for clarification, it's "one(1), five(5), l")<br>
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 
-5. If this is the first time you've connected to this server, a message like this may pop up.
+5. If this is the first time you've connected to this server, a message like this may pop up.<br>
 ```
-
 ssh cs15lsp22zz@ieng6.ucsd.edu
 
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't
@@ -45,12 +44,10 @@ RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
 ```
 
-6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. 
+6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. <br>
 ```
-
 ssh cs15lsp22aht@ieng6.ucsd.edu
 Password:
 Last login: Fri Apr  1 11:33:28 2022 from 128.54.184.112
@@ -68,8 +65,8 @@ ieng6-203   14:15:01   5   1.23,  1.24,  1.21
 
 Fri Apr 01, 2022  2:18pm - Prepping cs15lsp22
 [cs15lsp22aht@ieng6-203]:~:2$
-
 ```
+
 ---
 
 ### STEP 3 - Trying Some Commands
@@ -109,6 +106,7 @@ class LabReportPractice {
    }
 }
 ```
+
 2. Run it using the commands `javac` and `java` on your computer.
 ![image7](createfile.png)
 
@@ -123,6 +121,7 @@ class LabReportPractice {
 ![image8](scp2.png)
 
 ---
+
 ### STEP 5 - Setting an SSH Key
 I'm sure you have noticed by now that every time we use the commands `ssh` or `scp`, we had to type or copy-paste our password. Sometimes, it may get frustrating when it doesn't work, and it can be very time consuming. Luckily, there's a way to avoid this problem, and that is `ssh` keys. 
 
@@ -130,7 +129,6 @@ Using a program called `ssh-keygen`, it creates a pair of files called the publi
 
 1. On your computer, run the following commands (make sure to enter your username **instead of** `<user-name>`)
 ```
-
 $ ssh-keygen
 
 Generating public/private rsa key pair.
@@ -167,7 +165,6 @@ The key's randomart image is:
 | +.+.o |
 | .. |
 +----[SHA256]-----
-
 ```
 ![image9](ssh-keygen.png)
 
@@ -175,7 +172,6 @@ The key's randomart image is:
 
 3. Let's copy the public key to the `.ssh` directory of your user account on the server.
 ```
-
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
 # now on server
@@ -185,11 +181,11 @@ $ <logout>
 # back on client
 $ scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-
 ```
 ![image10](sshkey2.png)
 
 ---
+
 ### STEP 6 - Optimizing Remote Running
 You can actually make remote running faster and more pleasant by using the following tips:
 1. Directly running a command on the remote server by putting it in quotes after the `ssh` command.
