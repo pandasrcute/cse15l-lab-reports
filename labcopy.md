@@ -1,11 +1,12 @@
-# Lab Report 1 - Remote Access !
+# Lab Report 1 - Remote Access 
 ### Written by: Tracy Zhao (A16764072)
 
 ---
 
 ## STEP 1 - Installing VS Code <br>
-The installation of VScode is fairly easy and simple.
+The installation of VScode is fairly easy and simple. <br>
 1) Go to the Visual Studio Code website by clicking on this [link](https://code.visualstudio.com/) [Note: there are versions available for common operating systems such as Windows and macOS.] <br>
+
 2) After installing and accepting the agreement, you should be able to see a window like the following. [Note: you may have different colors depending on your system and settings]<br>
 ![vscode](vscode.png)
 
@@ -19,16 +20,18 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
 1) Using Windows Settings (Windows Server 2019 and Windows 10 devices)
 * Open **Settings**, select **Apps > Apps & Features**, then select **Optional Features**. ![image](appsfeatures_LI.jpg)
 * Check to see if OpenSSH is already installed. If not, select the option **Add a feature** then find and install the following:<br>
-  * OpenSSH Client
-  * OpenSSH Server
-* Once this is done, return to **Apps > Apps & Features > Optional Features** and OpenSSH should be listed. ![image](installationsopenssh.jpg)
+  -> OpenSSH Client <br>
+  -> OpenSSH Server 
+
+* Once this is done, return to **Apps > Apps & Features > Optional Features** and OpenSSH should be listed. 
+![image](installationsopenssh.jpg)
 
 2) After this, look up your course-specific account for CSE15L by clicking this [link](https://sdacs.ucsd.edu/~icc/index.php). Once you're there, just enter your username and PID, and you should be able to see all the course-specific accounts associated with your student account.
 
 3) We now will connect to the remote computer using Visual Studio Code's remote option. 
 * Open a terminal in VSCode (can be done in 2 ways) <br>
-  - Ctrl + `
-  - On the top menu panel, click **Terminal > New Terminal**
+  -> Ctrl + ` <br>
+  -> On the top menu panel, click **Terminal > New Terminal**
 
 4) Type in the command below and replace `zz` with the letters in your course-specific account (for clarification, it's "one(1), five(5), l")<br>
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
@@ -75,18 +78,19 @@ Let's try running some commands on both your computer and on the remote computer
 
 1) On your computer
 * Let's run the following commands:
-  * `cd` - change directory
-  * `ls` - list files
-  * `pwd` - print working directory
-  * `mkdir` - make directory
-  * `cp` - copy 
-  * `cat` - view or create a file
-  * `cd ~` - return to home directory
+  -> `cd` - change directory
+  -> `ls` - list files
+  -> `pwd` - print working directory
+  -> `mkdir` - make directory
+  -> `cp` - copy 
+  -> `cat` - view or create a file
+  -> `cd ~` - return to home directory
 
-  Here's an example 
-  ![image3](commands1.png)
-  ![image4](commands2.png)
-  ![image5](commands3.png)
+Here's an example 
+![image3](commands1.png)
+![image4](commands2.png)
+![image5](commands3.png)
+
 2) On the remote computer
 * Let's try running some of the commands that we used earlier after ssh-ing. 
 ![image6](sshcommands.png)
@@ -96,6 +100,7 @@ Let's try running some commands on both your computer and on the remote computer
 
 ## STEP 4 - Moving Files with `scp`
 The command `scp` allows you to copy a file(s) from your computer to a remote computer. You will always run it from the client (your computer, not the remote computer). <br>
+
 1) Let's create a file on your computer and name it `LabReportPractice.java`. Then copy the following contents into it.
 ```
 class LabReportPractice {
@@ -188,7 +193,7 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ---
 
 ## STEP 6 - Optimizing Remote Running
-You can actually make remote running faster and more pleasant by using the following tips:
+You can actually make remote running faster and more pleasant by using the following tips: <br>
 1) Directly running a command on the remote server by putting it in quotes after the `ssh` command.
 ![image11](pleasant1.png)
 2) Running multiple commands on the same line in most terminals by separating the commands with a ";".
