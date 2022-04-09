@@ -196,8 +196,10 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 You can actually make remote running faster and more pleasant by using the following tips: <br>
 1) Directly running a command on the remote server by putting it in quotes after the `ssh` command.
 ![image11](pleasant1.png)
+
 2) Running multiple commands on the same line in most terminals by separating the commands with a ";".
 ![image12](pleasant2.png)
+
 3) Instead of typing a command again, you can use the up-arrow button on your keyboard to recall the previous command.
 
 
