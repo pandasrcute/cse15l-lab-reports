@@ -46,10 +46,12 @@ RSA key fingerprint is
 SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
 ```
 
 6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. <br>
 ```
+
 ssh cs15lsp22aht@ieng6.ucsd.edu
 Password:
 Last login: Fri Apr  1 11:33:28 2022 from 128.54.184.112
@@ -67,6 +69,7 @@ ieng6-203   14:15:01   5   1.23,  1.24,  1.21
 
 Fri Apr 01, 2022  2:18pm - Prepping cs15lsp22
 [cs15lsp22aht@ieng6-203]:~:2$
+
 ```
 
 ---
@@ -99,6 +102,7 @@ Let's try running some commands on both your computer and on the remote computer
 The command `scp` allows you to copy a file(s) from your computer to a remote computer. You will always run it from the client (your computer, not the remote computer). <br>
 1. Let's create a file on your computer and name it `LabReportPractice.java`. Then copy the following contents into it.
 ```
+
 class LabReportPractice {
    public static void main(String[] args) {
       System.out.println(System.getProperty("os.name"));
@@ -107,6 +111,7 @@ class LabReportPractice {
       System.out.println(System.getProperty("user.dir"));
    }
 }
+
 ```
 
 2. Run it using the commands `javac` and `java` on your computer.
@@ -131,6 +136,7 @@ Using a program called `ssh-keygen`, it creates a pair of files called the publi
 
 1. On your computer, run the following commands (make sure to enter your username **instead of** `<user-name>`)
 ```
+
 $ ssh-keygen
 
 Generating public/private rsa key pair.
@@ -139,11 +145,13 @@ Enter file in which to save the key
 (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 
 Enter passphrase (empty for no passphrase):
+
 ```
 
 **Note: Do not enter a paraphrase** <br>
 
 ```
+
 Enter same passphrase again:
 
 Your identification has been saved in
@@ -167,6 +175,7 @@ The key's randomart image is:
 | +.+.o |
 | .. |
 +----[SHA256]-----
+
 ```
 ![image9](ssh-keygen.png)
 
@@ -174,6 +183,7 @@ The key's randomart image is:
 
 3. Let's copy the public key to the `.ssh` directory of your user account on the server.
 ```
+
 $ ssh cs15lsp22zz@ieng6.ucsd.edu
 <Enter Password>
 # now on server
@@ -183,6 +193,7 @@ $ <logout>
 # back on client
 $ scp /Users/<user-name>/.ssh/id_rsa.pub
 cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
 ```
 ![image10](sshkey2.png)
 
