@@ -3,7 +3,7 @@
 
 ---
 
-## STEP 1 Installing VS Code <br>
+## STEP 1 - Installing VS Code <br>
 The installation of VScode is fairly easy and simple.
 1. Go to the Visual Studio Code website by clicking on this [link](https://code.visualstudio.com/) [Note: there are versions available for common operating systems such as Windows and macOS.]
 2. After installing and accepting the agreement, you should be able to see a window like the following. [Note: you may have different colors depending on your system and settings]<br>
@@ -11,7 +11,7 @@ The installation of VScode is fairly easy and simple.
 
 ---
 
-## STEP 2 Remotely Connecting
+## STEP 2 - Remotely Connecting
 Now that you have successfully installed VS Code, you will now move on to connecting to a remote computer over the Internet from your very own device. 
 
 If you're on Windows, install a program called OpenSSH. This will allow you to connect your computer to other computers that have this. There are two ways in which you can do this: Windows settings or PowerShell. In this report, I will show you using the first option.
@@ -74,7 +74,7 @@ Fri Apr 01, 2022  2:18pm - Prepping cs15lsp22
 ```
 ---
 
-### STEP 3 Trying Some Commands
+### STEP 3 - Trying Some Commands
 Let's try running some commands on both your computer and on the remote computer after ssh-ing. 
 
 1. On your computer
@@ -99,7 +99,7 @@ Let's try running some commands on both your computer and on the remote computer
 
 ---
 
-### STEP 4 Moving Files with `scp`
+### STEP 4 - Moving Files with `scp`
 The command `scp` allows you to copy a file(s) from your computer to a remote computer. You will always run it from the client (your computer, not the remote computer). <br>
 1. Let's create a file on your computer and name it `LabReportPractice.java`. Then copy the following contents into it.
 ```
@@ -127,7 +127,7 @@ class LabReportPractice {
 ![image8](scp2.png)
 
 ---
-### STEP 5 Setting an SSH Key
+### STEP 5 - Setting an SSH Key
 I'm sure you have noticed by now that every time we use the commands `ssh` or `scp`, we had to type or copy-paste our password. Sometimes, it may get frustrating when it doesn't work, and it can be very time consuming. Luckily, there's a way to avoid this problem, and that is `ssh` keys. 
 
 Using a program called `ssh-keygen`, it creates a pair of files called the public key and private key. The public key will be copies to a location on the server and the private key will be in a location on the client. Instead of using your password, the `ssh` command will use the pair of files.  
@@ -197,7 +197,7 @@ cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ![image10](sshkey2.png)
 
 ---
-### STEP 6 Optimizing Remote Running
+### STEP 6 - Optimizing Remote Running
 You can actually make remote running faster and more pleasant by using the following tips:
 1. Directly running a command on the remote server by putting it in quotes after the `ssh` command.
 
