@@ -34,7 +34,6 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 5. If this is the first time you've connected to this server, a message like this may pop up.
-
 ```
 
 ssh cs15lsp22zz@ieng6.ucsd.edu
@@ -91,7 +90,6 @@ Let's try running some commands on both your computer and on the remote computer
   ![image3](commands1.png)
   ![image4](commands2.png)
   ![image5](commands3.png)
-
 2. On the remote computer
 * Let's try running some of the commands that we used earlier after ssh-ing. 
 ![image6](sshcommands.png)
@@ -116,7 +114,6 @@ class LabReportPractice {
 ![image7](createfile.png)
 
 3. In the terminal from the directory where you created this file, run the following command. (don't forget to change it to your username)
-
 `scp LabReportPractice.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 4. Enter your password just like how you would when you log in with ssh. 
