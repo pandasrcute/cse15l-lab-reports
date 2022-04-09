@@ -31,16 +31,20 @@ If you're on Windows, install a program called OpenSSH. This will allow you to c
 `$ ssh cs15lsp22zz@ieng6.ucsd.edu`
 
 5. If this is the first time you've connected to this server, a message like this may pop up.
+
 ```
+
 ...
 ... 
 
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
 ```
 
 6. Agree to this message by typing in `yes`. You should be prompted to enter your password. Your screen should look similar to this once you have successfully connected to a computer in the CSE basement. 
 
 ```
+
 ssh cs15lsp22aht@ieng6.ucsd.edu
 Password:
 Last login: Fri Apr  1 11:33:28 2022 from 128.54.184.112
