@@ -14,17 +14,17 @@
 
 ![test-file1.md](test-file1-ss.png)
 
->III. Screenshot of code change of MarkdownParse.java
-
-![test-file1](code_change1.png)
-
->IV. Screenshot of failure inducing output of test-file1.md
+>III. Screenshot of failure inducing output of test-file1.md
 
 ![failure-inducing input 1](fi_output1.png)
 
->V. Screenshot of failure-inducing output of test-file1.md in the commit message
+>IV. Screenshot of failure-inducing output of test-file1.md in the commit message
 
 ![failure-inducing input commit history 1](cmh1.png)
+
+>V. Screenshot of code change of MarkdownParse.java
+
+![test-file1](code_change1.png)
 
 >VI. Screenshot of the fixed output for test-file1.md
 
@@ -46,17 +46,17 @@ Using an image syntax as the failure-inducing input caused a symptom in the prog
 
 ![test-file2.md](test-file2-ss.png)
 
->III. Screenshot of code change of MarkdownParse.java
-
-![test-file2](code_change2.png)
-
->IV. Screenshot of failure inducing output of test-file2.md
+>III. Screenshot of failure inducing output of test-file2.md
 
 ![failure-inducing input 2](fi_output2.png)
 
->V. Screenshot of failure-inducing output of test-file2.md in the commit message
+>IV. Screenshot of failure-inducing output of test-file2.md in the commit message
 
 ![failure-inducing input commit history 2](cmh2.png)
+
+>V. Screenshot of code change of MarkdownParse.java
+
+![test-file2](code_change2.png)
 
 >VI. Screenshot of the fixed output for test-file2.md
 
@@ -78,17 +78,17 @@ Using `[]` and `()` but very far apart in the file as failure-inducing input cau
 
 ![test-file3.md](test-file3-ss.png)
 
->III. Screenshot of code change of MarkdownParse.java
-
-![test-file3](code_change3.png)
-
->IV. Screenshot of failure inducing output of test-file3.md
+>III. Screenshot of failure inducing output of test-file3.md
 
 ![failure-inducing input 3](fi_output3.png)
 
->V. Screenshot of failure-inducing output of test-file3.md in the commit message
+>IV. Screenshot of failure-inducing output of test-file3.md in the commit message
 
 ![failure-inducing input commit history 3](cmh3.png)
+
+>V. Screenshot of code change of MarkdownParse.java
+
+![test-file3](code_change3.png)
 
 >VI. Screenshot of the fixed output for test-file3.md
 
