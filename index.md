@@ -1,8 +1,14 @@
 # Tracy Zhao Lab Reports
-[Repository: cse15l-lab-reports](https://github.com/pandasrcute/cse15l-lab-reports)
+[Repository: cse15l-lab-reports](https://github.com/pandasrcute/cse15l-lab-reports) <br>
 [Lab Report 1](https://pandasrcute.github.io/cse15l-lab-reports/lab-reports-1-week-2.html) <br>
 [Lab Report 2]() 
 
+<div id="sideMenu"> 
+	[TOC] 
+</div> 
+<div id="mainContent"> 
+	[CONTENT] 
+</div> 
 
 ## Lab2 - Practice on Github
 

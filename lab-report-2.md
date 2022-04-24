@@ -1,33 +1,10 @@
+
 # Lab Report 2 - Failure-Inducing Inputs and Symptoms
 ### Written by: Tracy Zhao (A16764072)
 
 ---
 
 ## Code Change 1 
-[//]: # 
-<!---
-Instructions
-1. screenshot of code change diff (screenshot of the greens and reds in commits)
-2. link to the test file for a failure inducing input [eg. newTestFile1]
-3. show screenshot of the symptom (output) and it should be in the commit message history
-4. write 2-3 sentences describing relationship between bug, symptom, and failure inducing input
-
-# - headers
-**bold**
-*italics*
-* - listing
-<br> - break line
-![image](image.jpg)
-[link](url)
-`code`
-> something (gray bar stuff)
-```
-codes
-```
-
---- - for a line
-
---->
 
 >I. Link to test-file1.md
 
@@ -60,29 +37,7 @@ Using an image syntax as the failure-inducing input caused a symptom in the prog
 ---
 
 ## Code Change 2
-[//]: # 
-<!---
-Instructions
-1. screenshot of code change diff (screenshot of the greens and reds in commits)
-2. link to the test file for a failure inducing input [eg. newTestFile1]
-3. show screenshot of the symptom (output) and it should be in the commit message history
-4. write 2-3 sentences describing relationship between bug, symptom, and failure inducing input
 
-# - headers
-**bold**
-*italics*
-* - listing
-<br> - break line
-![image](image.jpg)
-[link](url)
-`code`
-```
-codes
-```
-
---- - for a line
-
---->
 >I. Link to test-file2.md
 
 https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file2.md
@@ -114,29 +69,7 @@ Using `[]` and `()` but very far apart in the file as failure-inducing input cau
 ---
 
 ## Code Change 3 
-[//]: # 
-<!---
-Instructions
-1. screenshot of code change diff (screenshot of the greens and reds in commits)
-2. link to the test file for a failure inducing input [eg. newTestFile1]
-3. show screenshot of the symptom (output) and it should be in the commit message history
-4. write 2-3 sentences describing relationship between bug, symptom, and failure inducing input
 
-# - headers
-**bold**
-*italics*
-* - listing
-<br> - break line
-![image](image.jpg)
-[link](url)
-`code`
-```
-codes
-```
-
---- - for a line
-
---->
 >I. Link to test-file3.md
 
 https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file3.md
@@ -164,4 +97,3 @@ https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6
 >VII. Relationship between bug, symptom, and failure-inducing input
 
 Using a file that has no link inside the `()` as seen in line 4 of test-file3.md caused a symptom in the program, which is the incorrect output of the null value inside `()`. Since there is no link inside `()`, it shouldn't be added to the ArrayList `toReturn`. To fix this bug that caused the symptom, a condition was set to check if the character directly after `(` is `)`, and if it is, it means that there is no link in `()`, and it will not be added to the ArrayList `toReturn`.
-
