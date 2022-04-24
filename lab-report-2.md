@@ -32,7 +32,7 @@
 
 >VII. Relationship between bug, symptom, and failure-inducing input
 
-Using an image syntax as the failure-inducing input caused a symptom in the program, which is the incorrect output of the image as a link. The bug that caused this is a logical error since the code didn't include any conditions that determined whether it was in the form of image. To fix this, a condition was set to check if the character right before the open bracket was an exclamation mark `!`. 
+Using an image syntax as the failure-inducing input caused a symptom in the program, which is the incorrect output of the image as a link. The bug that caused this is a logical error since the code didn't include any conditions that determined whether it was in the form of image. To fix this, a condition was set to check if the character right before `[` is an exclamation mark `!`. 
 
 ---
 
