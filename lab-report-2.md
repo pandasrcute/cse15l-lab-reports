@@ -8,7 +8,7 @@
 
 >I. Link to test-file1.md
 
-https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file1.md
+[test-file1.md](https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file1.md)
 
 >II. Screenshot of test-file1.md code
 
@@ -40,7 +40,7 @@ Using an image syntax as the failure-inducing input caused a symptom in the prog
 
 >I. Link to test-file2.md
 
-https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file2.md
+[test-file2.md](https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file2.md)
 
 >II. Screenshot of test-file2.md code
 
@@ -72,7 +72,7 @@ Using `[]` and `()` but very far apart in the file as failure-inducing input cau
 
 >I. Link to test-file3.md
 
-https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file3.md
+[test-file3.md](https://github.com/pandasrcute/markdown-parser/blob/233a87aa2d5a656f85466e7d19e6a68d6fa3a536/test-file3.md)
 
 >II. Screenshot of test-file3.md code
 
