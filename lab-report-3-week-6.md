@@ -34,7 +34,7 @@ Here are the public key and private key (in my remote ieng6 account).
 Now using `git` commands to commit and push a change to Github while logged into my ieng6 account.
 ![img6](lr6-6.png)
 
-Here is the [link](https://github.com/pandasrcute/markdown-parser/commit/7551b75dd2169169129584d8c3185a4d928e3767) resulting commit:
+Here is the [link](https://github.com/pandasrcute/markdown-parser/commit/7551b75dd2169169129584d8c3185a4d928e3767) for the resulting commit:
 ![img7](lr6-7.png)
 
 Another example:
