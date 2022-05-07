@@ -29,7 +29,10 @@ Here are the public key and private key (in my user account).
 ![img5](lr6-5.png)
 
 Now using `git` commands to commit and push a change to Github while logged into my ieng6 account.
-![img](lr6-6.png)
+![img6](lr6-6.png)
+
+Here is the [link](https://github.com/pandasrcute/markdown-parser/commit/7551b75dd2169169129584d8c3185a4d928e3767) resulting commit:
+![img7](lr6-7.png)
 
 ---
 
