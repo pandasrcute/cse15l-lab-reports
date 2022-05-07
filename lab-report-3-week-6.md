@@ -22,17 +22,26 @@ Here is an `scp ` command copying a file into my account
 ## Setup Github Access from ieng6
 -> If you try to use `commit` and `push` this from the command line, you’ll likely see an error. You must use a token-based login mechanism like SSH keys. To fix this, you need to add the public key you made to Github. <br>
 
-This is my public key that I made from the remote access lab. (on Github)
-![img4](lr6-4.png) 
+These are my public keys that I made from the remote access lab (local) and on ieng6 (remote). (on Github)
+![img4](lr6-5new.png) 
 
-Here are the public key and private key (in my user account).
+Here are the public key and private key (in my local user account).
 ![img5](lr6-5.png)
+
+Here are the public key and private key (in my remote ieng6 account).
+![img5a](lr6-6new.png)
 
 Now using `git` commands to commit and push a change to Github while logged into my ieng6 account.
 ![img6](lr6-6.png)
 
 Here is the [link](https://github.com/pandasrcute/markdown-parser/commit/7551b75dd2169169129584d8c3185a4d928e3767) resulting commit:
 ![img7](lr6-7.png)
+
+Another example:
+![img6a](lr6-7new.png)
+
+Here is the [link](https://github.com/pandasrcute/markdown-parser/commit/dbc839430289b6e5ad118a6fab5c8f2fe497837f) for the second commit:
+![img 7a](lr6-7a.png)
 
 ---
 
