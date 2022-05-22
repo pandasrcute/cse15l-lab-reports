@@ -3,7 +3,7 @@
 [Repository: cse15l-lab-reports](https://github.com/pandasrcute/cse15l-lab-reports) <br>
 [Lab Report 1](https://pandasrcute.github.io/cse15l-lab-reports/lab-reports-1-week-2.html) <br>
 [Lab Report 2](https://pandasrcute.github.io/cse15l-lab-reports/lab-report-2.html) <br>
-[Lab Report 3](https://pandasrcute.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+[Lab Report 3](https://pandasrcute.github.io/cse15l-lab-reports/lab-report-3-week-6.html) <br>
 [Lab Report 4](https://pandasrcute.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
 ## Lab2 - Practice on Github

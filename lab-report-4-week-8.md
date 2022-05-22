@@ -76,7 +76,8 @@ Snippet 3: failed
 
 ## Questions
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.<br>
-**Answer:** I think that there is a small code change that will make my program work. The following lines of code (original code is included)check if there exists a second `]` that is right before `(` and check if there is a backtick before `[`, and it worked. However, a function can be written to check all the related cases with backticks that may require more than 10 lines of code.
+**Answer:** I think that there is a small code change that will make my program work. The following lines of code (original code is included)check if there exists a second `]` that is right before `(` and check if there is a backtick before `[`, and it worked. However, a function can be written to check all the related cases with backticks that may require more than 10 lines of code. <br>
+
 ```
 //added this line
 int secondcloseBracket = markdown.indexOf("]", closeBracket+1);
@@ -94,7 +95,6 @@ if(openBracket >= 1) {
    if((chkEM=='`')) flag=false;
    }
 ```
-<br> 
 
 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.<br>
 **Answer:**  A solution that I came up with was to write while loops to check that as long as the character after `)` is `)`, then it will add 1 to the `closeParen`. I did the same for the `]`. However, this solution may not work for all related cases so more lines of code would be needed.<br>
@@ -109,4 +109,4 @@ while(markdown.charAt(closeBracket+1) == ']'){
 ```
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.<br>
-**Answer:**  I believe that the program would need a more involved-change since there are so many related cases to check for. Examples would be to check for spaces in between `(` and `)` and ignore them since markdown only reads the actual link and check for valid links because it shouldn't be several lines as in the failed output provided.<br> 
+**Answer:**  I believe that the program would need a more involved-change since there are so many related cases to check for. Examples would be to check for spaces in between `(` and `)` and ignore them since markdown only reads the actual link and check for valid links because it shouldn't be several lines as in the failed output provided. 
