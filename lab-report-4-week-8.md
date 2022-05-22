@@ -76,7 +76,7 @@ Snippet 3: failed
 
 ## Questions
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.<br>
-**Answer:** I think that there is a small code change that will make my program work. The following lines of code (original code is included)check if there exists a second `]` that is right before `(` and check if there is a backtick before `[`, and it worked. However, a function can be written to check all the related cases with backticks that may require more than 10 lines of code. <br>
+**Answer:** I think that there is a small code change that will make my program work. The following lines of code (original code is included) check if there exists a second `]` that is right before `(` and check if there is a backtick before `[`, and it worked. However, a function can be written to check all the related cases with backticks that may require more than 10 lines of code. <br>
 
 ```
 //added this line
