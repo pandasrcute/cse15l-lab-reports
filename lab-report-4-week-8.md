@@ -11,20 +11,20 @@
 ---
 
 ## Expected Outputs (using VScode preview)
-[!image1](snip1_preview.png)
+![image1](snip1_preview.png)
 
-[!image2](snip2_preview.png)
+![image2](snip2_preview.png)
 
-[!image3](snip3_preview.png)
+![image3](snip3_preview.png)
 
 ---
 
 ## Code for tests in `MarkdownParseTest.java`
-[!image4](testSnippet1.png)
+![image4](testSnippet1.png)
 
-[!image5](testSnippet2.png)
+![image5](testSnippet2.png)
 
-[!image6](testSnippet3.png)
+![image6](testSnippet3.png)
 
 ---
 
@@ -32,11 +32,11 @@
 
 My Implementation:
 
-[!image7](my_output.png)
+![image7](my_output.png)
 
 Reviewed Implementation:
 
-[!image8](rmy_output.png)
+![image8](rmy_output.png)
 
 Note: I used the command `make test` to run the JUnit tests
 
@@ -46,15 +46,15 @@ Note: I used the command `make test` to run the JUnit tests
 
 Snippet 1: failed 
 
-[!image9](my_output1.png)
+![image9](my_output1.png)
 
 Snippet 2: failed 
 
-[!image10](my_output2.png)
+![image10](my_output2.png)
 
 Snippet 3: failed 
 
-[!image11](my_output3.png)
+![image11](my_output3.png)
 
 ---
 
@@ -62,15 +62,15 @@ Snippet 3: failed
 
 Snippet 1: failed 
 
-[!image12](rmy_output1.png)
+![image12](rmy_output1.png)
 
 Snippet 2: failed 
 
-[!image13](rmy_output2.png)
+![image13](rmy_output2.png)
 
 Snippet 3: failed 
 
-[!image14](rmy_output3.png)
+![image14](rmy_output3.png)
 
 --- 
 
